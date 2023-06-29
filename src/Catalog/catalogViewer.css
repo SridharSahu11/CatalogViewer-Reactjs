@@ -1,0 +1,33 @@
+.card{
+     width: 50%;
+     margin: auto;
+     margin-top: 75px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     padding:20px 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5); 
+}
+.card #imgContainer{
+   display: flex;
+   gap: 20px;
+}
+button{
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight: 500;
+}
+#box{
+    display: flex;
+    gap: 5px;
+} 
+input[type="checkbox"] {
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  }
